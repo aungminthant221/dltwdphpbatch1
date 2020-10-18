@@ -49,6 +49,13 @@
 		echo "Your Variable is Int";
 	}
 
+	echo "<hr/>";
+
+$num8=NULL;
+var_dump($num8);
+if(is_null($num8)){
+    echo "Your varibable is Null";
+}
 
 
 
