@@ -81,9 +81,36 @@ function multireturn($num1,$num2,$num3){
 echo multireturn(10,40,20);
 
 echo "<br/>";
+echo "<hr/>";
+
+//dynamic function call
+$val="greeting";
+echo $val;
+echo "<br/>";
+function greeting(){
+    return "Hello I am Myanmar";
+}
+
+echo greeting();
+echo "<br/>";
+echo $val;
+echo "<br/>";
+echo $val();
+
+echo "<hr/>";
 
 
+$num1="doit";
 
+function doit(){
+    return "We Love Kwee Phyo";
+}
+
+if(function_exists($num1){
+    echo "Yes, your variable had used in function";
+}else {
+	echo "No, your variable is not in function";
+}
 
 
 
