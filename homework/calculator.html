@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Calculator</title>
+    <link href="assets/libs/fontawesomepro/css/all.css" rel="stylesheet" type="text/css">
+	  <link href="assets/libs/fontawesomepro/css/regular.css" rel="stylesheet" type="text/css">
+	  <link href="assets/libs/fontawesomepro/css/light.css" rel="stylesheet" type="text/css">
+	  <link href="assets/libs/fontawesomepro/css/duotone.css" rel="stylesheet" type="text/css">
+    <link href="img/icon/calculator.jpg" rel="icon" type="image/jpg" sizes="16x16">
+    <link href="css/homework.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Web-Calculator</h1>
+    <table>
+      <!-- <form class="" action="" method="POSt"> -->
+        <thead>
+          <tr>
+            <th colspan="4"><input type="number" name="firstnumber" id="firstnumber" class="firstnumber" value="">
+            <input type="text" name="signbox" id="signbox" class="signbox" value="" maxlength="10">
+            <input type="number" name="secondnumber" id="secondnumber" class="secondnumber" value="">
+          </tr>
+          <tr>
+            <th colspan="4"><input type="number" name="result" id="result" class="result" value=""></th>
+          </tr>
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="reset" name="ac" id="ac" class="ac" onclick="first(arc)" value="AC"></td>
+            <td><button name="bs" id="bs" class="bs" onclick=""><i class="fad fa-backspace"></i></button></td>
+            <td><button name="mod" id="mod" class="mod" onclick="sign('%')">%</button></td>
+            <td><button name="dev" id="dev" class="dev" onclick="sign('/')"><i class="fad fa-divide"></i></button></td>
+          </tr>
+          <tr>
+            <td><button name="7" id="number" class="7" onclick="number('7')">7</button></td>
+            <td><button name="8" id="number" class="8" onclick="number('8')">8</button></td>
+            <td><button name="9" id="number" class="9" onclick="number('9')">9</button></td>
+            <td><button name="multi" id="multi" class="multi" onclick="sign('*')"><i class="fad fa-times"></i></button></td>
+          </tr>
+          <tr>
+            <td><button name="4" id="number" class="4" onclick="number('4')">4</button></td>
+            <td><button name="5" id="number" class="5" onclick="number('5')">5</button></td>
+            <td><button name="6" id="number" class="6" onclick="number('6')">6</button></td>
+            <td><button name="sub" id="sub" class="sub" onclick="sign('-')"><i class="fad fa-minus"></i></button></td>
+          </tr>
+          <tr>
+            <td><button name="1" id="number" class="1" onclick="number('1')">1</button></td>
+            <td><button name="2" id="number" class="2" onclick="number('2')">2</button></td>
+            <td><button name="3" id="number" class="3" onclick="number('3')">3</button></td>
+            <td><button name="add" id="add" class="add" onclick="sign('+')"><i class="fad fa-plus"></i></button></td>
+          </tr>
+          <tr>
+            <td><button name="dot" id="dot" class="dot" onclick="sign('.')">.</button></td>
+            <td><button name="0" id="number" class="0" onclick="number('0')">0</button></td>
+            <td><button name="bk" id="bk" class="bk" onclick="sign('()')">()</button></td>
+            <td><button name="eql" id="eql" class="eql" onclick="calculate()"><i class="fad fa-equals"></i></button></td>
+          </tr>
+        </tbody>
+      <!-- </form> -->
+    </table>
+      <h4 class="h41"> <a href="login.html" class="a"><i class="fad fa-user"></i>   Log in</a> </h4>
+      <h4 class="h42"><a href="http://localhost/dltwdphpbatch1/homework/inputtodb.php" class="a" target="_top"><i class="fad fa-cash-register"></i>  Register</a> </h4>
+    <footer>
+      <p>
+        Register for more useful tools and support us.
+        <br/>
+        <a href="http://localhost/dltwdphpbatch1/homework/inputtodb.php" target="_top">Register Now!</a>
+      </p>
+    </footer>
+  </body>
+    <script type="text/javascript">
+
+      function number(number){
+        document.getElementById("firstnumber").value+=number;
+      }
+      function number(number){
+         document.getElementById("secondnumber").value+=number;
+       }
+      function sign(sign){
+        document.getElementById("signbox").value+=sign;
+
+      }
+      let sbox=document.getElementById("signbox");
+      let acr=document.getElementById("ac");
+
+
+
+    function calculate(){
+        let num1=Number(document.getElementById("firstnumber").value);
+        let num2=Number(document.getElementById("secondnumber").value);
+        let getsign=document.getElementById("signbox").value;
+        let cal;
+
+        switch (getsign) {
+          case "+":
+            cal = num1 + num2;
+            break;
+          case "-":
+            cal = num1 - num2;
+            break;
+          case "*":
+            cal = num1 * num2;
+            break;
+          case "/":
+            cal = num1 / num2;
+            break;
+          case "%":
+            cal = num1 % num2;
+            break;
+          default:
+            console.log("no sign");
+        }
+        document.getElementById("result").value=cal;
+    }
+
+
+    </script>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    <<link href="css/profile.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
+    <table>
+      <thead>
+        <tr>
+          <th><legend>★━━━━━━━━ Profile ━━━━━━━★</legend></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+              <img src="img/icon/1606781.jpg" alt="avator" height="100px" width="200px" >
+          </td>
+        </tr>
+        <tr>
+          <!-- <td><label for="username">User Name</label></td> -->
+          <td><legend>User Name</legend><input type="text" name="username" id="username" class="username" placeholder="Type your name..."></td>
+        </tr>
+        <tr>
+          <!-- <td><label for="password">Password</label></td> -->
+          <td><legend>Email</legend><input type="Email" name="email" id="email" class="email" placeholder="Type your email..."></td>
+        </tr>
+        <tr>
+          <!-- <td><label for="username">User Name</label></td> -->
+          <td><legend>Password</legend><input type="password" name="password" id="password" class="password" placeholder="Type password..."></td>
+        </tr>
+        <tr>
+          <!-- <td><label for="username">User Name</label></td> -->
+          <td><legend>Confirm Password</legend><input type="password" name="password" id="password" class="password" placeholder="Retype above password..."></td>
+        </tr>
+        <tr>
+          <td><legend>Phone Number</legend>
+              <input type="number" name="phno" id="phno" class="phno" placeholder="Enter your phone number...">
+          </td>
+        </tr>
+        <tr>
+          <td><legend>Choose your gender</legend>
+            <input type="radio" name="gender" id="gender" class="" value="1">Male
+		        <input type="radio" name="gender" id="gender" class="" value="0">Female
+          </td>
+        </tr>
+        <tr>
+          <td><legend>Date of Birth</legend>
+              <input type="date" name="dob" id="dob" class="">
+          </td>
+        </tr>
+      </tbody>
+      <tfoot >
+        <tr>
+          <td>
+          <input type="reset" name="reset" id="reset" class="reset" value="Reset">
+          <input type="submit" name="update" id="update" class="update" value="Update">
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+body{
+  background-image: url(../img/wallpaper/register.jpg);
+  background-repeat:round ;
+}
+table{
+  background-color: rgba(135,206,235 ,0.9 );
+  border-radius: 20px 20px 20px 20px;
+  margin: 90px auto;
+}
+input{
+  text-align: center;
+  margin-left: 20%;
+  background-color: rgba(135,206,235 ,0.2 );
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+legend{
+  text-align: center;
+}
+.reset{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 3%;
+  border-radius: 10px 5px 5px 10px;
+  background-color:cyan;
+  margin-bottom: 10px;
+
+}
+.register{
+  margin-left: auto;
+  padding: 3%;
+  border-radius: 5px 10px 10px 5px;
+  width: 66%;
+  background-color: lightgreen;
+  font-style: italic;
+  border-style: outset;
+}
+.reset:hover{
+  background-color: #00b8ea;
+}
+.register:hover{
+    background-color: #03c04a;
+}
+.reset:focus,.register:focus{
+    border-style: inset;
+    padding: 2%;
+    outline: none;
+}
+input:focus{
+  outline: none;
+  border-color: red;
+  transition: 1s;
+  background-color:rgba(135,206,235 ,0.2 );
+}
+.rule{
+  margin-left:140px;
+}
+p{
+  text-align: center;
+  font-size: 110%;
+  margin-top: -60px;
+  margin-bottom: 100px;
+}
+a{
+  text-decoration: none;
+  color: invert;
+}
+a:hover{
+  color: red;
+  transition: 1s;
+  font-size: 120%;
+  transition: 0.3s;
+}

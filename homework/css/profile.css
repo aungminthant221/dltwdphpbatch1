@@ -1,0 +1,77 @@
+body{
+  background-image: url(../img/wallpaper/star.jpg);
+  background-position: top;
+}
+table{
+  background-color: rgba(135,206,235 ,0.7 );
+  border-radius: 20px 20px 20px 20px;
+  margin: 90px auto;
+}
+input{
+  text-align: center;
+  margin-left: 10%;
+  background-color: rgba(135,206,235 ,0.1 );
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 3%;
+}
+legend{
+  text-align: center;
+}
+.reset{
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 3%;
+  border-radius: 10px 5px 5px 10px;
+  background-color:cyan;
+  margin-bottom: 10px;
+
+}
+.update{
+  margin-left: auto;
+  padding: 3%;
+  border-radius: 5px 10px 10px 5px;
+  width: 66%;
+  background-color: lightgreen;
+  font-style: italic;
+  border-style: outset;
+}
+.reset:hover{
+  background-color: #00b8ea;
+}
+.update:hover{
+    background-color: #03c04a;
+}
+.reset:focus,.register:focus{
+    border-style: inset;
+    padding: 2%;
+    outline: none;
+}
+input:focus{
+  outline: none;
+  border-color: red;
+  transition: 1s;
+  background-color:rgba(135,206,235 ,0.2 );
+}
+.rule{
+  margin-left:140px;
+}
+p{
+  text-align: center;
+  font-size: 120%;
+}
+a{
+  text-decoration: none;
+  color: invert;
+}
+a:hover{
+  color: red;
+  transition: 1s;
+  font-size: 120%;
+  transition: 0.3s;
+}
+img{
+  margin-left: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
