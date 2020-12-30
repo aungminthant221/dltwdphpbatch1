@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64cb524e-b01b-425f-85c8-7a908931dd92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    <list default="true" id="c5cb63ba-8acb-4e1e-ac2c-46aff2d3d165" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../oop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../oop/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,16 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <pharConfigPath>$PROJECT_DIR$/composerautoload/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1lXv60aVntSbIb5rlId6Jg2O7zU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1mNnO7by7w3fTnNkiamUv8WIoYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,27 +26,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="64cb524e-b01b-425f-85c8-7a908931dd92" name="Default Changelist" comment="" />
-      <created>1607756089714</created>
+      <changelist id="c5cb63ba-8acb-4e1e-ac2c-46aff2d3d165" name="Default Changelist" comment="" />
+      <created>1609342880925</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607756089714</updated>
-      <workItem from="1607756096874" duration="9205000" />
-      <workItem from="1607840962001" duration="6505000" />
-      <workItem from="1608354795409" duration="13295000" />
-      <workItem from="1608445007586" duration="11108000" />
-      <workItem from="1608964256155" duration="6974000" />
-      <workItem from="1609050520501" duration="5911000" />
-      <workItem from="1609081061905" duration="4001000" />
-      <workItem from="1609336881538" duration="722000" />
+      <updated>1609342880925</updated>
+      <workItem from="1609342882698" duration="706000" />
     </task>
     <servers />
   </component>
@@ -66,6 +53,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

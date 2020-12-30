@@ -92,3 +92,20 @@ require_once "class_magicsleepandwakeup.php";
 require_once "class_staticmodifier.php";
 require_once "class_magicissetandunset.php";
 require_once "class_magiccallandcallstatic.php";
+
+require_once "class_magictostringandinvoke.php";
+require_once "class_databinding.php";
+require_once "class_constantvariable.php";
+require_once "class_abstractmethod.php";
+
+require_once "variadic.php";
+require_once "coalesce.php";
+require_once "callbackfunction.php";
+
+
+//// Auto Load
+//1 Simple autoload
+//
+//2 Composer Autoload
+//
+//3 PSR4 autoload
