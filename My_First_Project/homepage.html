@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AMTech</title>
+    <link href="img/logo/arrowheadlogo.jpg" rel="icon" type="img/jpg">
+
+<!--bootstrap start-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!--bootstrap end-->
+
+<!--Libraries start-->
+
+<!--Fontawesome-->
+    <link href="/assets/libs/fontawesomepro/css/all.css" rel="stylesheet">
+
+    <link href="/assets/libs/fontawesomepro/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/libs/fontawesomepro/css/brands.css" rel="stylesheet">
+    <link href="/assets/libs/fontawesomepro/css/solid.css" rel="stylesheet">
+
+<!--Libraries end-->
+</head>
+    <style type="text/css">
+        body{
+            background-color: black;
+        }
+        .agrn{
+            font-family: Algerian;
+        }
+        .agcy{
+            font-family: "Agency FB";
+        }
+        a{
+            text-decoration: none;
+            color: #ff253a;
+            /*margin-left: px;*/
+        }
+        a:hover{
+            color: #ff253a;
+        }
+        .top{
+            background-color: dimgray;
+        }
+        .menu{
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+        .bar1{
+            margin-top: 100px;
+        }
+        .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        /* Rotate first bar */
+        .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+            transform: rotate(-45deg) translate(-9px, 6px) ;
+        }
+
+        /* Fade out the second bar */
+        .change .bar2 {
+            opacity: 0;
+        }
+
+        /* Rotate last bar */
+        .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+            transform: rotate(45deg) translate(-8px, -8px) ;
+        }
+    </style>
+<body>
+    <div class="container-fluid top">
+        <div class="row">
+            <div id="navli" class="col-2 tab agcy" style="display: none;">
+                <button>Smart Phones</button><br/>
+                <button>Laptops &amp; Tablets</button><br/>
+                <button>Accessories</button><br/>
+                <button>About us</button>
+            </div>
+<!--            <div class="top">-->
+            <div id="navbtn" class="col-1 menu" onclick="menufun(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="col-1">
+                <a href="http://localhost/dltwdphpbatch1/My_First_Project/homepage.html"><h1 class="agrn">AMT<span class="agcy">ech</span> </h1></a>
+            </div>
+<!--            </div>-->
+        </div> <!--row div-->
+    </div><!-- container div-->
+</body>
+<script type="text/javascript">
+    let navli = document.getElementById("navli");
+    function menufun(x) {
+        x.classList.toggle("change");
+        if(navli.style.display==="block"){
+            navli.style.display="none";
+        }else{
+            navli.style.display="block";
+        }
+    }
+</script>
+<!--Bootstrap start-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<!--Bootstrap end-->
+
+</html>
